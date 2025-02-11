@@ -4,7 +4,7 @@ version: 0.0.1
 models:
   - name: Codestral
     provider: mistral
-    model: codestral
+    model: codestral-2501
     apiKey: ${{ inputs.MISTRAL_API_KEY }}
     roles:
       - autocomplete
