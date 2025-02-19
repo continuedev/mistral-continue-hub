@@ -1,13 +1,11 @@
-name: Codestral
+name: Mistral Large
 version: 1.0.0
 
 models:
-  - name: Codestral
+  - name: Mistral Large
     provider: mistral
-    model: codestral-2501
+    model: mistral-large-2411
     apiKey: ${{ inputs.MISTRAL_API_KEY }}
     roles:
-      - autocomplete
       - chat
-      - edit
-      - apply
+

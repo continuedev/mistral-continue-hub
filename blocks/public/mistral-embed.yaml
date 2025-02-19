@@ -1,0 +1,10 @@
+name: Mistral Embed
+version: 1.0.0
+
+models:
+  - name: Mistral Embed
+    provider: mistral
+    model: mistral-embed
+    apiKey: ${{ inputs.MISTRAL_API_KEY }}
+    roles:
+      - embed
