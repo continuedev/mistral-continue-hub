@@ -1,5 +1,6 @@
 name: Mistral Large
 version: 1.0.0
+schema: v1
 
 models:
   - name: Mistral Large
