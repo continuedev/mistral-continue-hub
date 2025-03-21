@@ -1,11 +1,11 @@
 name: Codestral
-version: 1.0.0
+version: 1.0.1
 schema: v1
 
 models:
   - name: Codestral
     provider: mistral
-    model: codestral-2501
+    model: codestral-latest
     apiKey: ${{ inputs.MISTRAL_API_KEY }}
     roles:
       - autocomplete
