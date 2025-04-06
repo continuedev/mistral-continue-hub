@@ -1,5 +1,5 @@
 name: Codestral
-version: 1.0.1
+version: 1.0.2
 schema: v1
 
 models:
@@ -12,3 +12,5 @@ models:
       - chat
       - edit
       - apply
+    defaultCompletionOptions:
+      contextLength: 256000
