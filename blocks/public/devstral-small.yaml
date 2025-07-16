@@ -1,0 +1,17 @@
+name: Devstral Small
+version: 1.0.0
+schema: v1
+
+models:
+  - name: Devstral Small
+    provider: mistral
+    model: devstral-medium-latest
+    apiKey: ${{ inputs.MISTRAL_API_KEY }}
+    roles:
+      - chat
+      - edit
+      - apply
+    defaultCompletionOptions:
+      contextLength: 256000
+    capabilities:
+      - tool_use
